@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("RockPaperScissor-2880x1620_Lede.jpg");
+    background-size: cover;
+}
+h1{
+    background-color: #231942;
+    color: whitesmoke;
+    height: 5rem;
+    text-align: center;
+    justify-content: center;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    color: whitesmoke;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, 
+#comp-score{
+font-size: 4rem;
+}
+
+#msg{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+    background-color: #0c1821;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.msg-container{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+}
